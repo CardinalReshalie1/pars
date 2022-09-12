@@ -1,8 +1,8 @@
 import xlsxwriter
-from ParsingProject import array
+from parsingAvito import array
 
 def writer(parametr):
-    book = xlsxwriter.Workbook(r"C:\Users\Konstantin\Desktop\data.xlsx")
+    book = xlsxwriter.Workbook(r"C:\Users\Konstantin\Desktop\data1.xlsx")
     page = book.add_worksheet("goods")
 
     row = 0
